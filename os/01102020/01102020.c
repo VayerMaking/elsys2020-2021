@@ -2,13 +2,13 @@
 size_t strlen( const char * );
 size_t strlen(const char * input){
   int size;
-  for(int i = 0;i<size_of(input);i++){
+  for(int i = 0;i<sizeof(input);i++){
     size = i;
   }
   return size;
 }
 
 int main(){
-  printf("%d\n", size_t strlen("asdf"));
+  printf("%d\n", strlen("asdf"));
   return 0;
 }
