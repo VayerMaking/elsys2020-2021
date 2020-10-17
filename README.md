@@ -10,6 +10,6 @@ Martin Vayer Github - [VayerMaking](https://github.com/VayerMaking)
 
 Martin Vayer Instagram - [bradata.chuma](https://instagram.com/bradata.chuma)
 
-Martin Vayer Instagram Photo acc - [vayermaking](https://instagram.com/bradata.chuma)
+Martin Vayer Instagram Photo acc - [vayermaking](https://instagram.com/vayermaking)
 
 Martin Vayer Twitter - [vayermaking](https://twitter.com/vayermaking)
