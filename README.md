@@ -6,4 +6,5 @@ tuka mi e vs ot 11 klas v **TUES**
 
 ## Author
 
-Martin Vayer - [VayerMaking](https://github.com/VayerMaking)
+Martin Vayer Github - [VayerMaking](https://github.com/VayerMaking)
+Martin Vayer Instagram - [bradata.chuma](https://instagram.com/bradata.chuma)
