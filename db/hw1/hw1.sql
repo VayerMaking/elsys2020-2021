@@ -109,4 +109,4 @@ Insert Into Student(name, class) Values('Dr. Ryan Schmidt', '9b');
 Insert Into Student(name, class) Values('Tuan Gislason', '3v');
 Insert Into Student(name, class) Values('Dorian VonRueden', '2v');
 #############################################
-SELECT * FROM Student WHERE class LIKE '12_';
+SELECT COUNT(*) FROM Student WHERE class LIKE '12_';
