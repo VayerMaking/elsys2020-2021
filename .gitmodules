@@ -4,3 +4,6 @@
 [submodule "mopr/--force"]
 	path = mopr/--force
 	url = https://github.com/VayerMaking/B-class-2020-2021
+[submodule "/home/vayermaking/github/elsys2020-2021/mopr/B-class-2020-2021"]
+	path = /home/vayermaking/github/elsys2020-2021/mopr/B-class-2020-2021
+	url = git@github.com:https://github.com/VayerMaking/B-class-2020-2021
