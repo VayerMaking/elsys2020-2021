@@ -32,8 +32,13 @@ public:
     fields.push_back(field);
   }
   int get_production(string type){
-
-    return 0;
+    int result;
+    for(list<Field>::iterator it = fields.begin(); it != fields.end(); it++) {
+       if((*it).type == type){
+         result += (*it).quantity;
+       }
+     }
+    return result;
   }
 };
 
@@ -49,5 +54,6 @@ int main(){
     }
   }
   farm.cout_farm();
+  cout << farm.get_production("corn");
   return 0;
 }
