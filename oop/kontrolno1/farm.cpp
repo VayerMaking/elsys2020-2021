@@ -45,6 +45,10 @@ public:
 int main(){
 
   Farm farm;
+  string type;
+
+  cout << "enter type tosearch" << endl;
+  cin >> type;
 
   while(!cin.eof()) {
     Field new_field;
@@ -54,6 +58,7 @@ int main(){
     }
   }
   farm.cout_farm();
-  cout << farm.get_production("corn");
+  cout << farm.get_production(type);
+  
   return 0;
 }
