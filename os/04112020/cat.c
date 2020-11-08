@@ -25,10 +25,10 @@ int main(int argc, char **argv)
   while ((read_size = read(file, buffer, BUFFER_SIZE)) > 0)
     write(1, &buffer, read_size);
 
-  while((read_size = read(file, buffer, BUFFER_SIZE)) > 0){
-    buffer[];
+  //while((read_size = read(file, buffer, BUFFER_SIZE)) > 0){
+  //  buffer[];
 
-  }
+  //}
   close(file);
   return (0);
 }
