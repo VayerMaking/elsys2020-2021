@@ -2,7 +2,7 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <errno.h>
-#define BUFFER_SIZE 1000
+#define BUFFER_SIZE 1024
 
 int main(int argc, const char *argv[])
 {
@@ -23,7 +23,9 @@ int main(int argc, const char *argv[])
             i++;
         }
         write(1, &buff, i);
+        write(1, "\n", 1);
     }
+
     close(file);
     return 0;
 }
