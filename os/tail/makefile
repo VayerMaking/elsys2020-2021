@@ -1,2 +1,2 @@
 all:
-	gcc -Wall -pedantic -std=c11 tail4.c -o tail
+		gcc -Wall -Werror -Wpedantic tail7.c -o tail.out
