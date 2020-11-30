@@ -13,6 +13,7 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <sys/types.h>
+#include <errno.h>
 
 #define BUFFER_SIZE 100
 
@@ -25,34 +26,58 @@
 //------------------------------------------------------------------------
 void tail(char *filename){
     int file = open(filename, O_RDONLY);
+
+    if (file < 0){
+      char error_message[] = "tail: cannot open for reading '";
+      strcat(error_message, filename);
+      strcat(error_message, "' for reading");
+      perror(error_message);
+      return;
+    }
+
     char buffer[BUFFER_SIZE + 1] = {0};
-    int symbols = read(file, buffer, BUFFER_SIZE);
+    int read_but_in_past_tense = read(file, buffer, BUFFER_SIZE);
     int counter = 0;
-    if (symbols > 0){
-        int position = symbols;
-        while (position > 0){
-            if (buffer[position] == '\n'){
+
+    if (read_but_in_past_tense > 0){
+        int pos = read_but_in_past_tense;
+        while (pos > 0){
+            if (buffer[pos] == '\n'){
                 counter++;
             }
             if (counter == 10){
                 break;
             }
-            position--;
+            pos--;
         }
 
-        int temp = 0;
-        if (position != 0){
-            temp = position + 1;
+        int tmp = 0;
+        if (pos != 0){
+            tmp = pos + 1;
         }
-        //printf("%d, %d, %d\n", position, lseek(file,position,SEEK_SET),symbols); //just to check
         char result[BUFFER_SIZE] = {0};
-        for (int i = 0; i < BUFFER_SIZE - position - 1; i++){
-            result[i] = buffer[temp + i];
+        for (int i = 0; i < BUFFER_SIZE - pos - 1; i++){
+            result[i] = buffer[tmp + i];
         }
-        write(1, &result, BUFFER_SIZE);
+        if(write(1, &result, BUFFER_SIZE) < 0){
+          perror("tail: error writing 'standard output'");
+          return;
+        }
+    }else{
+      char error_message[] = "tail: error reading '";
+      strcat(error_message, filename);
+      strcat(error_message, "'");
+      errno = 21;
+      perror(error_message);
+    }
+    if (close(file) < 0){
+      char error_message[] = "tail: error reading '";
+      strcat(error_message, filename);
+      strcat(error_message, "'");
+      errno = 5;
+      perror(error_message);
     }
     write(1,"\n",1);
-    close(file);
 }
 //------------------------------------------------------------------------
 // FUNCTION: pretty_print (име на функцията)
@@ -68,29 +93,19 @@ void pretty_print(char *filename){
 }
 int main(int argc, char *argv[]){
     if (argc < 2){
-      char *buffer;
-      for(int i = 1; i < argc; i++){
-        buffer = malloc(strlen(argv[i]) + 5);
-        strcpy(buffer,argv[i]);
-        strcat(buffer,".txt");
-      }
-      fprintf(stderr,buffer);
-      free(buffer);
-      return -1;
+      perror("usage ./tail filename ");
     }else if (argc > 2){
-        int i = 1;
-        while (i<argc){
-            if(i!=1){
-                write(1,"\n",1);
-            }
-            pretty_print(argv[i]);
-            tail(argv[i]);
-            i++;
+      int i = 1;
+      while (i<argc){
+        if(i!=1){
+          write(1,"\n",1);
         }
+        pretty_print(argv[i]);
+        tail(argv[i]);
+        i++;
+      }
     }else{
-        //pretty_print(argv[1]);
-        tail(argv[1]);
+      tail(argv[1]);
     }
-
     return 0;
 }
