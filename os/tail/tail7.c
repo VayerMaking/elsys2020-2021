@@ -15,7 +15,7 @@
 #include <sys/types.h>
 #include <errno.h>
 
-#define BUFFER_SIZE 100
+#define BUFFER_SIZE 1024
 
 //------------------------------------------------------------------------
 // FUNCTION: tail (име на функцията)
@@ -77,7 +77,7 @@ void tail(char *filename){
       errno = 5;
       perror(error_message);
     }
-    write(1,"\n",1);
+    //write(1,"\n",1);
 }
 //------------------------------------------------------------------------
 // FUNCTION: pretty_print (име на функцията)
