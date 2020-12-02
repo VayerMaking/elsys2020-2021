@@ -57,3 +57,13 @@ FROM Person p
 JOIN Store s ON p.id=s.person_id
 JOIN Item i ON s.item_id=i.id
 GROUP BY i.name;
+
+--sum store
+SELECT Sum(Item.price) from Item
+RIGHT JOIN Store ON Item.id = Store.item_id;
+
+--sum person
+SELECT Person.name, Sum(Item.price) from Store
+LEFT JOIN Person on Person.id = person_id
+LEFT JOIN Item on Item.id = item_id
+GROUP BY Person.name;
