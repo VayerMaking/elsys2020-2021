@@ -25,7 +25,10 @@ class Turtle():
     def check_orientation(self):
         return abs(self.orientation/90)
 
-
+        # 0 = nadqsno
+        # 1 = nadolu
+        # 2 = nalqwo
+        # 3 = nagore
 
     def move(self):
         if(abs(self.orientation/90) == 0):
@@ -66,10 +69,9 @@ class Turtle():
         self.reset_if_360()
         self.orientation = self.orientation + 90
 
-# 0 = nadqsno
-# 1 = nadolu
-# 2 = nalqwo
-# 3 = nagore
+class SimpleCanvas():
+    def draw():
+        
 
 turtle = Turtle(3,3)
 turtle.spawn_at(0,0)
