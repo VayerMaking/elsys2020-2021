@@ -32,25 +32,25 @@ class Turtle():
 
     def move(self):
         if(abs(self.orientation/90) == 0):
-            print("nadqsno gleda")
+            #print("nadqsno gleda")
             self.curr_pos_y += 1
             if self.curr_pos_y + 1 > self.rows:
                 self.curr_pos_y = 0
 
         elif(abs(self.orientation/90) == 1):
-            print("nadolu gleda")
+            #print("nadolu gleda")
             self.curr_pos_x += 1
             if self.curr_pos_x + 1 > self.columns:
                 self.curr_pos_x = 0
 
-        elif (abs(self.orientation/90) == 2):
-            print("nalqwo gleda")
+        elif(abs(self.orientation/90) == 2):
+            #print("nalqwo gleda")
             self.curr_pos_y -= 1
             if self.curr_pos_y + 1 > self.rows:
                 self.curr_pos_y = 0
 
-        elif (abs(self.orientation/90) == 3):
-            print("nagore gleda")
+        elif(abs(self.orientation/90) == 3):
+            #print("nagore gleda")
             self.curr_pos_x -= 1
             if self.curr_pos_x + 1 > self.columns:
                 self.curr_pos_x = 0
@@ -70,5 +70,31 @@ class Turtle():
         self.orientation = self.orientation + 90
 
 class SimpleCanvas():
-    def draw():
-        pass
+    def __init__(self, canvas, symbol_list):
+        self.canvas = canvas
+        self.symbol_list = symbol_list
+    def draw(self):
+        print("draw canvas",self.canvas)
+        maxx = max(map(max, self.canvas))
+        for row in range(len(self.canvas)):
+            for column in range(len(self.canvas[row])):
+                intensity = self.canvas[row][column] / maxx
+                #print("column", columns)
+                #print("row", row)
+                #print("chislo", self.canvas[row][column])
+                #print("intensity:", intensity)
+                #print("maxx", maxx)
+                #sum(sum(max, canvas))
+                if intensity == 0:
+                    self.canvas[row][column] = self.symbol_list[0]
+                elif intensity > 0 and intensity <= 0.3:
+                    self.canvas[row][column] = self.symbol_list[1]
+                elif intensity > 0.3 and intensity <= 0.6:
+                    self.canvas[row][column] = self.symbol_list[2]
+                elif intensity > 0.6 and intensity <= 1:
+                    self.canvas[row][column] = self.symbol_list[3]
+                #[['@', '*', '*'], ['*', '*', '*'], ['*', ' ', '*']]
+
+        #print(self.canvas)
+
+        return self.canvas

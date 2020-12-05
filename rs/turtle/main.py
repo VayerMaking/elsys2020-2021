@@ -13,7 +13,7 @@ turtle.move()
 turtle.print_turtle()
 turtle.move()
 turtle.print_turtle()
-
+'''
 print("default orientation", turtle.orientation)
 turtle.turn_left()
 print("changed orientation", turtle.orientation)
@@ -31,7 +31,7 @@ turtle.turn_right()
 print("changed orientation", turtle.orientation)
 turtle.turn_right()
 print("changed orientation", turtle.orientation)
-
+'''
 print(turtle.check_orientation())
 turtle.move()
 
