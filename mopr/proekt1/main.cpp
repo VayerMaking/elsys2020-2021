@@ -5,6 +5,11 @@
 
 using namespace std;
 
+const int KWH 0.129
+const int M3 1.461
+const int MWH 85.07
+const int MIN1 0.132
+
 int main(){
   ifstream in = ifstream("./data.txt");
   string read_lines;
