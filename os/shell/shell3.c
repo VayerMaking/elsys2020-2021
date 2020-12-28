@@ -21,6 +21,8 @@ char **parse(char *line)
     tokens[position] = token;
     position++;
 
+
+
     if(position >= bufsize){
       bufsize += 64;
       tokens = realloc(tokens, bufsize * sizeof(char*));
@@ -35,20 +37,20 @@ char **parse(char *line)
 }
 
 
-void execArgs(char** parsed)
-{
+void execArgs(char** parsed){
     // Forking a child
     pid_t pid = fork();
 
-    if (pid == -1) {
+    if(pid == -1){
         printf("\nFailed forking child..");
         return;
-    } else if (pid == 0) {
+    }else if (pid == 0){
         if (execvp(parsed[0], parsed) < 0) {
-            printf("\nCould not execute command..");
+            //printf("\nCould not execute command..");
+            perror(parsed[0]);
         }
         exit(0);
-    } else {
+    }else{
         // waiting for child to terminate
         wait(NULL);
         return;
@@ -65,17 +67,25 @@ int main(){
   buffer = (char *)malloc(bufsize * sizeof(char));
   if( buffer == NULL)
   {
-      perror("Unable to allocate buffer");
+      perror("fork");
       exit(1);
   }
 
+
+  if(write(1, "$ ", 3) < 0){
+    perror("write");
+  }
+  
   characters = getline(&buffer,&bufsize,stdin);
+  if(characters == EOF){
+    break;
+  }
   printf("%ld\n", characters);
 
   char** parsed_command = parse(buffer);
 
   execArgs(parsed_command);
-}
+  }
 
 
   return 0;
