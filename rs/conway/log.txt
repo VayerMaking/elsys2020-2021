@@ -1,0 +1,1741 @@
+
+
+□ □ ■ □ □ □ □ □ □ □ □ □ □ □ □ 
+□ □ □ ■ □ □ □ □ □ □ □ □ □ □ □ 
+□ ■ ■ ■ □ □ □ □ □ □ □ □ □ □ □ 
+□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ 
+□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ 
+□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ 
+□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ 
+□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ 
+□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ 
+□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ 
+□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ 
+□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ 
+□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ 
+□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ 
+□ □ □ □ □ □ □ □ □ □ □ □ □ □ □ 
+za tozi element 0: grid[0][0]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+za tozi element 0: grid[0][1]
+dolen  False
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+za tozi element 1: grid[0][2]
+dolen  False
+ dolu desen  True
+desen  False
+goren  False
+gore desen  False
+za tozi element 0: grid[0][3]
+dolen  True
+ dolu desen  True
+desen  False
+goren  False
+gore desen  True
+za tozi element 0: grid[0][4]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  False
+za tozi element 0: grid[0][5]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+za tozi element 0: grid[0][6]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+za tozi element 0: grid[0][7]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+za tozi element 0: grid[0][8]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+za tozi element 0: grid[0][9]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+za tozi element 0: grid[0][10]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+za tozi element 0: grid[0][11]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+za tozi element 0: grid[0][12]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+za tozi element 0: grid[0][13]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+za tozi element 0: grid[1][0]
+dolen  True
+ dolu desen  False
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[1][1]
+dolen  True
+ dolu desen  False
+desen  False
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  False
+za tozi element 0: grid[1][2]
+dolen  False
+ dolu desen  False
+desen  False
+goren  True
+gore desen  False
+gore lqv  True
+lqv  False
+dolu lqv  True
+za tozi element 1: grid[1][3]
+dolen  False
+ dolu desen  False
+desen  True
+goren  False
+gore desen  True
+gore lqv  True
+lqv  False
+dolu lqv  False
+za tozi element 0: grid[1][4]
+dolen  True
+ dolu desen  True
+desen  True
+goren  False
+gore desen  False
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[1][5]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[1][6]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[1][7]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[1][8]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[1][9]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[1][10]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[1][11]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[1][12]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[1][13]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[2][0]
+dolen  False
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 1: grid[2][1]
+dolen  True
+ dolu desen  False
+desen  False
+goren  False
+gore desen  False
+gore lqv  False
+lqv  False
+dolu lqv  False
+za tozi element 1: grid[2][2]
+dolen  True
+ dolu desen  False
+desen  False
+goren  True
+gore desen  False
+gore lqv  False
+lqv  False
+dolu lqv  True
+za tozi element 1: grid[2][3]
+dolen  False
+ dolu desen  False
+desen  False
+goren  True
+gore desen  False
+gore lqv  False
+lqv  True
+dolu lqv  False
+za tozi element 0: grid[2][4]
+dolen  True
+ dolu desen  True
+desen  True
+goren  False
+gore desen  True
+gore lqv  False
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[2][5]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[2][6]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[2][7]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[2][8]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[2][9]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[2][10]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[2][11]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[2][12]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[2][13]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[3][0]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  False
+za tozi element 0: grid[3][1]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  False
+dolu lqv  False
+za tozi element 0: grid[3][2]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  False
+lqv  False
+dolu lqv  False
+za tozi element 0: grid[3][3]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  False
+lqv  False
+dolu lqv  True
+za tozi element 0: grid[3][4]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  False
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[3][5]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[3][6]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[3][7]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[3][8]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[3][9]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[3][10]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[3][11]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[3][12]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[3][13]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[4][0]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[4][1]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[4][2]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[4][3]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[4][4]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[4][5]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[4][6]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[4][7]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[4][8]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[4][9]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[4][10]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[4][11]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[4][12]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[4][13]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[5][0]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[5][1]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[5][2]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[5][3]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[5][4]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[5][5]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[5][6]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[5][7]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[5][8]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[5][9]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[5][10]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[5][11]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[5][12]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[5][13]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[6][0]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[6][1]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[6][2]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[6][3]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[6][4]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[6][5]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[6][6]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[6][7]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[6][8]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[6][9]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[6][10]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[6][11]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[6][12]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[6][13]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[7][0]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[7][1]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[7][2]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[7][3]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[7][4]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[7][5]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[7][6]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[7][7]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[7][8]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[7][9]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[7][10]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[7][11]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[7][12]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[7][13]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[8][0]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[8][1]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[8][2]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[8][3]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[8][4]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[8][5]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[8][6]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[8][7]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[8][8]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[8][9]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[8][10]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[8][11]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[8][12]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[8][13]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[9][0]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[9][1]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[9][2]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[9][3]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[9][4]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[9][5]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[9][6]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[9][7]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[9][8]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[9][9]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[9][10]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[9][11]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[9][12]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[9][13]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[10][0]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[10][1]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[10][2]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[10][3]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[10][4]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[10][5]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[10][6]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[10][7]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[10][8]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[10][9]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[10][10]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[10][11]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[10][12]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[10][13]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[11][0]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[11][1]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[11][2]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[11][3]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[11][4]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[11][5]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[11][6]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[11][7]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[11][8]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[11][9]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[11][10]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[11][11]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[11][12]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[11][13]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[12][0]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[12][1]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[12][2]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[12][3]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[12][4]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[12][5]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[12][6]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[12][7]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[12][8]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[12][9]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[12][10]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[12][11]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[12][12]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[12][13]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[13][0]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[13][1]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[13][2]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[13][3]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[13][4]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[13][5]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[13][6]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[13][7]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[13][8]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[13][9]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[13][10]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[13][11]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[13][12]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+za tozi element 0: grid[13][13]
+dolen  True
+ dolu desen  True
+desen  True
+goren  True
+gore desen  True
+gore lqv  True
+lqv  True
+dolu lqv  True
+
+
