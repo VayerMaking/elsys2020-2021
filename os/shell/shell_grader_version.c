@@ -8,32 +8,34 @@
 #include <errno.h>
 
 #define BUFFER_SIZE 1024
-char **parse_cmdline(const char *cmdline){
+
+char **parse(char *line)
+{
   int bufsize = 64;
-  char *cmdline_copy = malloc(bufsize * sizeof(char*));;
-  strcpy(cmdline_copy, cmdline);
   int position = 0;
   char **tokens = malloc(bufsize * sizeof(char*));
   char *token;
 
-  token = strtok(cmdline_copy, " \n");
+  token = strtok(line, " \n");
   while(token != NULL){
     tokens[position] = token;
     position++;
+
+
 
     if(position >= bufsize){
       bufsize += 64;
       tokens = realloc(tokens, bufsize * sizeof(char*));
     }
+
     token = strtok(NULL, " \n");
   }
   tokens[position] = NULL;
   //printf("%s\n", tokens[0]);
   //printf("%s\n", tokens[1]);
-  //free(tokens);
-  //free(cmdline_copy);
   return tokens;
 }
+
 
 void execArgs(char** parsed){
     // Forking a child
@@ -41,7 +43,6 @@ void execArgs(char** parsed){
 
     if(pid == -1){
         printf("\nFailed forking child..");
-        perror("fork");
         return;
     }else if (pid == 0){
         if (execvp(parsed[0], parsed) < 0) {
@@ -52,10 +53,10 @@ void execArgs(char** parsed){
     }else{
         // waiting for child to terminate
         wait(NULL);
-        //free(parsed);
         return;
     }
 }
+
 
 int main(){
   char *buffer;
@@ -64,29 +65,28 @@ int main(){
 
   while(1){
   buffer = (char *)malloc(bufsize * sizeof(char));
-  if(buffer == NULL){
+  if( buffer == NULL)
+  {
       perror("fork");
       exit(1);
   }
-  /*if(write(1, "$ ", 3) < 0){
+
+
+  if(write(1, "$ ", 3) < 0){
     perror("write");
-  }*/
-  printf("%s", "$ ");
+  }
 
   characters = getline(&buffer,&bufsize,stdin);
   if(characters == EOF){
     break;
   }
-  //printf("%ld\n", characters);
+  printf("%ld\n", characters);
 
-  char** parsed_command = parse_cmdline(buffer);
+  char** parsed_command = parse(buffer);
 
   execArgs(parsed_command);
-
-  free(parsed_command);
   }
 
-  free(buffer);
 
   return 0;
 }
