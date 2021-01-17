@@ -10,6 +10,7 @@ int check_power(float shot_power){
     if(shot_power < 5 && shot_power > 2){
       return 1;
     }
+    return 0;
 }
 
 int check_vector_lenght(int array[], int pos_x, int pos_y, int min_vector, int max_vector){
@@ -20,6 +21,7 @@ int check_vector_lenght(int array[], int pos_x, int pos_y, int min_vector, int m
     if(lenght > min_vector && lenght < max_vector){
         return 1;
     }
+    return 0;
 }
 
 void find_next_point(int pos_x, int pos_y, int array[], float shot_power){
@@ -67,13 +69,18 @@ int main(){
   cout << "max_vector " << max_vector << endl;
   cout << endl;
 
-  cin >> shot_power;
-  cin >> pos_x;
-  cin >> pos_y;
+  while(true){
+    cin >> shot_power;
+    cin >> pos_x;
+    cin >> pos_y;
 
-  if(check_vector_lenght(array, pos_x, pos_y, min_vector, max_vector)){
-    find_next_point(pos_x, pos_y, array, shot_power);
+    cout << endl;
+
+    if(check_vector_lenght(array, pos_x, pos_y, min_vector, max_vector)){
+      find_next_point(pos_x, pos_y, array, shot_power);
+    }
+
+    cout << endl;
   }
-
   return 0;
 }
