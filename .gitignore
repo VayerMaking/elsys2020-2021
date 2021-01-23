@@ -5,3 +5,4 @@ rs/*/__pycache__
 rs/15122020/todo.db
 *.zip
 vgcore*
+*.o
