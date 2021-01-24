@@ -11,11 +11,14 @@ public:
     int movie_lenght;
     string audio_stream_lang;
 
-    MovieTorrent();//{}
-    MovieTorrent(string name, int size, string uploader_name, int downloads, string director, int movie_lenght, string audio_stream_lang);// : name(name), size(size), uploader_name(uploader_name),
-    // downloads(downloads), director(director), movie_lenght(movie_lenght), audio_stream_lang(audio_stream_lang){}
+    MovieTorrent();
+    MovieTorrent(string name, int size, string uploader_name, int downloads, string director, int movie_lenght, string audio_stream_lang);
 
-    string toString();//{}
+    string get_director();
+    int get_movie_lenght();
+    string get_audio_stream_lang();
+
+    string toString();
 };
 
 #endif

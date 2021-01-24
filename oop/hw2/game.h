@@ -13,7 +13,9 @@ public:
 
     GameTorrent();//{}
     GameTorrent(string name, int size, string uploader_name, int downloads, string platform, char maturity_level);
-        
+
+    string get_platform();
+    char get_maturity_level();
 
     string toString();//{}
 };
