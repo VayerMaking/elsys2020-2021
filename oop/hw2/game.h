@@ -11,13 +11,13 @@ public:
     string platform;
     char maturity_level; // e - everybody, m - >15, p - >18
 
-    GameTorrent();//{}
+    GameTorrent();
     GameTorrent(string name, int size, string uploader_name, int downloads, string platform, char maturity_level);
-
+    GameTorrent(const GameTorrent &copy);
     string get_platform();
     char get_maturity_level();
 
-    string toString();//{}
+    string toString();
 };
 
 #endif

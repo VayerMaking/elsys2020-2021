@@ -13,6 +13,7 @@ public:
 
     SoftwareTorrent();
     SoftwareTorrent(string name, int size, string uploader_name, int downloads, string creator, string operating_system, string version);
+    SoftwareTorrent(const SoftwareTorrent &copy);
 
     string toString();
 

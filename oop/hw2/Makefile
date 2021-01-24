@@ -1,4 +1,4 @@
-DEPS = main.o game.o software.o movie.o torrent.o server.o
+DEPS = main.o torrent.o server.o  game.o software.o movie.o  
 
 all: ${DEPS}
 	g++ ${DEPS} -o torrent_server

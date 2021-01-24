@@ -13,7 +13,7 @@ public:
 
     MovieTorrent();
     MovieTorrent(string name, int size, string uploader_name, int downloads, string director, int movie_lenght, string audio_stream_lang);
-
+    MovieTorrent(const MovieTorrent &copy);
     string get_director();
     int get_movie_lenght();
     string get_audio_stream_lang();

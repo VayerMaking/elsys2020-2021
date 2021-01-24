@@ -14,6 +14,8 @@ public:
 
     Torrent();
     Torrent(string name, int size, string uploader_name, int downloads);
+    Torrent(const Torrent &copy);
+
     string get_name();
     int get_size();
     string get_uploder_name();
