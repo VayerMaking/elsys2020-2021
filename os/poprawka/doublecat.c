@@ -25,20 +25,27 @@ int main(int argc, char **argv){
   if(file == -1){
     perror("no file found");
   }
+  if(argc >= 2){
+    while((read_file = read(file, buffer, BUFFER_SIZE)) > 0){
+      write(1, buffer, 1);
+      write(1, buffer, 1);
+    }
+  }/*else if(argc > 2){
+    fprintf(stdout, sizeof(argv));
+    //buffer = (char *)malloc(BUFFER_SIZE * sizeof(char) * sizeof(argv));
+    pid_t pid = fork();
 
-  while((read_file = read(file, buffer, BUFFER_SIZE)) > 0){
-    //doblirane
-    /*int i = 1;
-    while(i < sizeof(buffer)){
-      fprintf(stdout, buffer[i]);
-      i++;
-    }*/
-    write(1, buffer, 1);
-    //write(1, "\n", 1);
-    write(1, buffer, 1);
-    //write(1, "\n", 1);
+    if(pid == -1){
+      perror("fork");
+      return;
+    }else if(pid == 0){
+      //exec child
+    }else{
+      wait(NULL);
+      return;
+    }
   }
-
+  */
   close(file);
   return 0;
 }
