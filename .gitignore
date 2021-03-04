@@ -6,3 +6,6 @@ rs/15122020/todo.db
 *.zip
 vgcore*
 *.o
+*iml
+oop/*/out/
+oop/*/.idea/
